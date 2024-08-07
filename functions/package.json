@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "main": "dist/main.js",
   "scripts": {
-    "build": "npm run clean && npm run lint:fix && ./node_modules/.bin/tsc",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",

@@ -2,7 +2,7 @@ import * as functions from 'firebase-functions';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import express, { Express } from 'express'; // import express as default import
+import express, { Express } from 'express';
 
 const server: Express = express();
 
