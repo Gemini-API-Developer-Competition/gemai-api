@@ -41,4 +41,4 @@ createNestServer(server)
   .then(() => console.log('NestJS server created'))
   .catch((err) => console.error('NestJS server creation error', err));
 
-export const api = onRequest({ region: ['asia-northeast3'] }, server);
+export const model_api = onRequest({ region: ['asia-northeast3'] }, server);
